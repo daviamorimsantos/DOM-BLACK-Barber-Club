@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dom Black Barber Club - barbearia masculina, cortes, barba e experiência premium.">
+  <title>DOM BLACK | Barber Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="#inicio"><span>DB</span><div>DOM BLACK<small>BARBER CLUB</small></div></a>
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">A barbearia</a>
+    <a href="#equipe">Equipe</a>
+  </nav>
+  <a class="header-btn" href="https://wa.me/5517999999999?text=Olá!%20Quero%20agendar%20um%20horário%20na%20Dom%20Black." target="_blank">Agendar horário</a>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="eyebrow"><i></i> BARBEARIA MASCULINA</div>
+    <h1>Seu estilo.<br><span>Seu momento.</span></h1>
+    <p>Mais do que um corte. Uma experiência pensada para você sair daqui se sentindo diferente.</p>
+    <div class="actions">
+      <a class="btn gold" href="https://wa.me/5517999999999?text=Olá!%20Quero%20agendar%20um%20horário." target="_blank">Agendar agora <b>↗</b></a>
+      <a class="btn outline" href="#servicos">Conhecer serviços</a>
+    </div>
+  </div>
+  <div class="hero-bottom">
+    <div><strong>SEG — SÁB</strong><span>09:00 — 20:00</span></div>
+    <div><strong>LOCALIZAÇÃO</strong><span>Centro · São José do Rio Preto</span></div>
+    <div class="scroll">SCROLL <span>↓</span></div>
+  </div>
+</section>
+
+<section class="numbers">
+  <div><strong>8+</strong><span>anos de experiência</span></div>
+  <div><strong>4.9</strong><span>avaliação média</span></div>
+  <div><strong>12k+</strong><span>clientes atendidos</span></div>
+  <div><strong>5</strong><span>barbeiros especialistas</span></div>
+</section>
+
+<section class="section services" id="servicos">
+  <div class="section-title">
+    <div><p class="eyebrow dark"><i></i> O QUE FAZEMOS</p><h2>Serviços feitos<br><em>do seu jeito.</em></h2></div>
+    <p>Escolha seu serviço e deixe o resto com a gente. Técnicas atuais, atendimento sem pressa e atenção aos detalhes.</p>
+  </div>
+  <div class="service-list">
+    <article class="service">
+      <div class="service-no">01</div>
+      <div><h3>Corte + Acabamento</h3><p>Corte personalizado, lavagem, finalização e acabamento preciso.</p></div>
+      <strong>R$ 45</strong>
+      <button onclick="book('Corte + Acabamento')">Agendar <span>↗</span></button>
+    </article>
+    <article class="service featured">
+      <div class="service-no">02</div>
+      <div><h3>Corte + Barba</h3><p>Nosso combo completo para renovar o visual de uma vez.</p><label>MAIS PEDIDO</label></div>
+      <strong>R$ 70</strong>
+      <button onclick="book('Corte + Barba')">Agendar <span>↗</span></button>
+    </article>
+    <article class="service">
+      <div class="service-no">03</div>
+      <div><h3>Barba Premium</h3><p>Toalha quente, desenho, acabamento e hidratação.</p></div>
+      <strong>R$ 35</strong>
+      <button onclick="book('Barba Premium')">Agendar <span>↗</span></button>
+    </article>
+    <article class="service">
+      <div class="service-no">04</div>
+      <div><h3>Pezinho</h3><p>Acabamento rápido para manter o corte sempre alinhado.</p></div>
+      <strong>R$ 20</strong>
+      <button onclick="book('Pezinho')">Agendar <span>↗</span></button>
+    </article>
+  </div>
+</section>
+
+<section class="experience" id="sobre">
+  <div class="experience-photo">
+    <div class="photo-label"><span>EST. 2018</span><b>DOM BLACK</b></div>
+  </div>
+  <div class="experience-copy">
+    <p class="eyebrow"><i></i> A EXPERIÊNCIA</p>
+    <h2>Não é só sobre<br><em>aparência.</em></h2>
+    <p>A Dom Black nasceu para transformar aquele momento no barbeiro em uma pausa na correria. Música, café, conversa e um atendimento que respeita seu estilo.</p>
+    <div class="features">
+      <div><b>01</b><span>Ambiente confortável</span></div>
+      <div><b>02</b><span>Profissionais especializados</span></div>
+      <div><b>03</b><span>Produtos profissionais</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="team section" id="equipe">
+  <div class="section-title">
+    <div><p class="eyebrow dark"><i></i> QUEM CUIDA DO SEU ESTILO</p><h2>Conheça nossa<br><em>equipe.</em></h2></div>
+  </div>
+  <div class="team-grid">
+    <article><div class="person p1"></div><div class="person-info"><h3>Lucas Martins</h3><span>BARBEIRO MASTER</span></div></article>
+    <article><div class="person p2"></div><div class="person-info"><h3>Rafael Costa</h3><span>ESPECIALISTA EM FADE</span></div></article>
+    <article><div class="person p3"></div><div class="person-info"><h3>Bruno Alves</h3><span>BARBA &amp; VISAGISMO</span></div></article>
+  </div>
+</section>
+
+<section class="booking">
+  <div class="booking-content">
+    <p class="eyebrow"><i></i> PRONTO?</p>
+    <h2>Seu próximo visual<br><em>começa aqui.</em></h2>
+    <p>Escolha seu horário e venha viver a experiência Dom Black.</p>
+    <a class="btn gold" href="https://wa.me/5517999999999?text=Olá!%20Quero%20agendar%20meu%20horário%20na%20Dom%20Black." target="_blank">Agendar pelo WhatsApp <b>↗</b></a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="logo"><span>DB</span><div>DOM BLACK<small>BARBER CLUB</small></div></div>
+  <div class="footer-links"><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a><a href="#equipe">Equipe</a></div>
+  <p>Projeto demonstrativo · 2026</p>
+</footer>
+
+<script>
+function book(service){
+  const message = `Olá! Vim pelo site da Dom Black e quero agendar: ${service}.`;
+  window.open(`https://wa.me/5517999999999?text=${encodeURIComponent(message)}`, '_blank');
+}
+</script>
+</body>
+</html>
